@@ -3,13 +3,15 @@
 
 ### Prerequisits
 
-running mogodb instance with a mongoDB URI connection string  
+Npm
+Node
+mogodb instance with a mongoDB URI connection string  
 
 ### Deployment
 
 - open terminal
 - clone repo
-- cd <repo>
+- cd repo directory
 - npm install
 - create .env file in root directory and set ENVIRONMENT vars in .env file 
 ```
