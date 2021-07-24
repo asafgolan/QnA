@@ -26,7 +26,8 @@ exports.create = (req, res) => {
                 error: errorHandler(err)
             });
         }
-        res.json({ data });
+        let returnData = {questionId :data._id};
+        res.json(returnData);
     });
 };
 
