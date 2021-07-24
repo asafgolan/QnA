@@ -11,7 +11,7 @@ running mogodb instance with a mongoDB URI connection string
 - clone repo
 - cd <repo>
 - npm install
-- set env vars in .env file 
+- create .env set ENVIRONMENT vars in .env file 
 ```
   DATABASE= mongodb+srv://<dbuser>:<password>@qna.odwv8.mongodb.net/<dbname>?retryWrites=true&w=majority //MONGO ATLAS DB example connection string
   PORT=8000
