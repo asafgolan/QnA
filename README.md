@@ -24,7 +24,7 @@ mogodb instance with a mongoDB URI connection string
 
 ### Usage  : 
 
-```defualt API endpoint localhost:8000``
+```defualt API endpoint localhost:8000```
 
 ### Auth Routes
 
