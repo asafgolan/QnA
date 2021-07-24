@@ -75,8 +75,8 @@ mogodb instance with a mongoDB URI connection string
   }
   ```
 
- ### * userId is returned at signin
- ### * for admin routes add also header Authorization = Bearer + token from user signin
+ ** userId is returned at signin ```_id```
+ ** for admin routes add also header Authorization = Bearer + token from user signin
 
 ###  Admin Category Routes
  
