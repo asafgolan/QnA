@@ -26,6 +26,8 @@ mogodb instance with a mongoDB URI connection string
 
 ```defualt API endpoint localhost:8000```
 
+### [click to open postman collection](https://www.getpostman.com/collections/6303e0b332dfd8e81e44)
+
 ### Auth Routes
 
 - #### user signup ``` POST api/signup ```
@@ -74,12 +76,12 @@ mogodb instance with a mongoDB URI connection string
      }
   }
   ```
-
- ** userId is returned at signin ```_id```
- ** for admin routes add also header Authorization = Bearer + token from user signin
-
+  
 ###  Admin Category Routes
- 
+
+:information_source: **userId** is returned at signin `_id`<br/>
+:information_source: for admin routes add header Authorization = Bearer + `token` from returned at signin
+
 - ####  create category ```POST api/category/create/:userId ```
   - REQUEST 
   ```
@@ -102,7 +104,11 @@ mogodb instance with a mongoDB URI connection string
   }
   ```
   
-### Admin Question Routes  
+### Admin Question Routes
+
+:information_source: **userId** is returned at signin `_id`<br/>
+:information_source: for admin routes add header Authorization = Bearer + `token` from returned at signin
+
   - #### question create  ```POST api/question/:categoryId/:userId ```
     - REQUEST
     ```
